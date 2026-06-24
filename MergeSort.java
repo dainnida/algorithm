@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class MergeSort {
-    
+    // 시간복잡도: O(nlog₂n) -> 반으로 쪼개는 과정(logn) * 정렬할 때 모든 데이터 스캔(n)
+    // 공간복잡도: O(n) -> 원본 배열의 크기와 동일한 크기의 임시 배열(추가 공간)이 필수적으로 요구되므로
     public static void mergeSort(int[] arr, int start, int end) {
         // 원소가 1개 이하로 쪼개지면 끝
         if (start >= end)
