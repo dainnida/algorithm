@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class QuickSort {
     // 시간복잡도: 최악 O(n^2) -> 피벗이 항상 가장 작은 값이거나 가장 큰 값일 때
     // 시간복잡도: 최선 O(nlog₂n) -> 항상 반으로 쪼개질 때
-    // 공간복잡도: O(n)
+    // 공간복잡도: 최악 O(n) 최선 O(logn)
     public static void quickSort(int[] arr, int start, int end) {
         if (start >= end)
             return;
