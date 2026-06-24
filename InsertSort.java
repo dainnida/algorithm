@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class InsertSort {
     // 시간복잡도: 최악 O(n^2), 최선 O(n)
-    // 공간복잡도: O(n)
+    // 공간복잡도: O(1)
     public static void sort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int temp = arr[i];
